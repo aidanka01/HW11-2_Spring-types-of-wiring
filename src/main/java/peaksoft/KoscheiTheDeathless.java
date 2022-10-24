@@ -6,10 +6,9 @@ import peaksoft.model.Ocean1;
 
 @Component
 public class KoscheiTheDeathless {
-
     private Ocean1 ocean;
 
-    public String getRulesByDeth() {
+    public String getRulesByDeath() {
         return "На свете есть океан , " + ocean.toString();
     }
 
